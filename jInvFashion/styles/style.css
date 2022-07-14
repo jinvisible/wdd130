@@ -17,6 +17,9 @@ header {
     grid-template-columns: 150px auto;
     font-family: Georgia;
     font-size: 22px;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
 }
 
 .logo {
@@ -81,7 +84,7 @@ footer a:hover {
 #hero {
     display: grid;
     grid-template: 1fr 1fr / 1fr 1fr 1fr;
-    margin-top: 50px;
+    margin-top: 150px;
     margin-bottom: 50px;
 }
 
