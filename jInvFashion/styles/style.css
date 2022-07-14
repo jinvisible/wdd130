@@ -185,3 +185,39 @@ footer a:hover {
     margin-right: 20px;
     margin-top: 20px;
 }
+
+.trends-grid {
+    display: grid;
+    grid-template: 300px 200px 1fr 470px / 400px 1fr 400px;
+}
+
+.trends-title {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    font-family: Georgia;
+    font-size: 42pt;
+    text-align: center;
+    margin-top: 170px;
+}
+
+#trends-img1 {
+    width: 400px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-left: 100px;
+}
+
+#trends-img2 {
+    width: 400px;
+    grid-column: 3/4;
+    grid-row: 4/5;
+    margin-left: -100px;
+    margin-top: -60px;
+}
+
+.trends-msg {
+    background-color: #CFCFCF;
+    padding: 35px;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
